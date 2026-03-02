@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - release*
+  workflow_dispatch:   # 添加这一行以允许手动触发
 
 jobs:
   # job 1
